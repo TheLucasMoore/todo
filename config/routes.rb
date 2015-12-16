@@ -13,6 +13,7 @@ end
   # You can have the root of your site routed with "root"
   root 'pages#home'
   get 'about' => "pages#about"
+  get 'tasks' => "pages#tasks"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
