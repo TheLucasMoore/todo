@@ -14,6 +14,7 @@ end
   root 'pages#home'
   get 'about' => "pages#about"
   get 'tasks' => "pages#tasks"
+  get 'test' => "pages#test"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
